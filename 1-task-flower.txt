@@ -1,0 +1,17 @@
+package com.flowers;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Flower {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+BufferedReader rr = new BufferedReader(new InputStreamReader(System.in));
+ System.out.println("Enter radius");
+int rad = Integer.parseInt(rr.readLine());
+ System.out.println("Perimeter is " + (2 * 3.14 * rad));
+ System.out.println("Perimeter is " + (3.14 * rad *rad));
+	}
+
+}

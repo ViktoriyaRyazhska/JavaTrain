@@ -1,0 +1,21 @@
+package com.adr;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Adress {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+	BufferedReader adres = new BufferedReader(new InputStreamReader(System.in));
+ 
+ 
+ 
+System.out.println("What is your name?");
+String name = adres.readLine();
+System.out.println("Where do you live, " + name);
+String adress = adres.readLine();
+System.out.println(name + " live in " + adress);
+	}
+
+}

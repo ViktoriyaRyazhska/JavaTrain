@@ -1,0 +1,26 @@
+package com.call;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Calls {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+		BufferedReader call = new BufferedReader(new InputStreamReader(System.in));
+		int SUM = 0;
+		for (int i = 0; i < 3; i = i + 1) {
+			System.out.println(i);
+			System.out.println("From what country do you call? ");
+			String country = call.readLine();
+			System.out.println("How many minutes was your call? ");
+			
+			int min = Integer.parseInt(call.readLine());
+			System.out.println((i + 1) + " call from " + country + " continued " + min + " minutes");
+			SUM = SUM + min;
+			/*System.out.println("SUM of calls is " + SUM);*/
+		 }
+	System.out.println("SUM of calls is " + SUM + " minutes");
+	}
+
+}
