@@ -1,0 +1,74 @@
+package com.edu;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class Radius {
+  public static void main(String[] args) throws IOException {
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+    System.out.println("Calculation perimeter and area by entering the radius. Set the radius.");
+    int r = Integer.parseInt(br.readLine());
+    System.out.println("P= " + 2*java.math.PI*r);
+    System.out.println("S= " + java.math.PI*r^2);
+  }
+}
+
+package com.edu;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class address {
+  public static void main(String[] args) throws IOException {
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+    System.out.println("Hello. What is your name?");
+    String name = br.readLine();
+    System.out.println("Where are you live, " + name +"?");
+    String address = br.readLine();
+    
+    System.out.println("Hello " + name "from " + address);  
+      }
+}
+
+package com.edu;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class phone {
+  public static void main(String[] args) throws IOException {
+    BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+    
+    // set tarif value 
+    // Ukrain = tarif.a
+    // Great Britain =tarif.b
+    // USA = tarif.c
+
+    System.out.println("Calls cost: Ukraine 1,05 $/minute");
+    System.out.println("Calls cost: Great Britain 2,58 $/minute,");
+    System.out.println("Calls cost: USA 3,20 $/minute.");
+    System.out.println("Set duration for Ukraine");
+    double Ukr = Integer.parseInt(br.readLine());
+    System.out.println("Set duration for Great Britain");
+    double GB = Integer.parseInt(br.readLine());
+    System.out.println("Set duration for USA");
+    double US = Integer.parseInt(br.readLine());
+    
+    u=UKR * 1,05;
+    g=GB * 2,58;
+    u2=US * 3,20;
+    
+    
+    System.out.println( "Ukraine= " + u + "$");
+    System.out.println( "Great Britain= " + g + "$");
+    System.out.println( "USA= " + u2 + "$");
+    System.out.println( "Total= " u + g + u2  + "$");
+    
+    
+    
+    
+    System.out.println("You are " + age);
+  }
+}
