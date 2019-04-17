@@ -1,0 +1,14 @@
+package edu.com;
+
+public class Employee {
+	private String name;
+	private float rate;
+	private float hours;
+	
+	public Person(String name, float rate, float hours) {
+		this.name = name;
+		this.rate = rate;
+		this.hours = hours;
+	}
+
+}
