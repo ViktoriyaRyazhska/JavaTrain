@@ -1,0 +1,15 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class JavaProClass {
+
+	public static void main(String[] args) throws IOException {
+
+		
+		Person pr = new Person("tyu", 1999);
+		
+		System.out.println(pr);
+		System.out.println(pr.getAge());	
+	}
+}

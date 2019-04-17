@@ -1,0 +1,15 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class JavaProClass {
+
+	public static void main(String[] args) throws IOException {
+
+		
+		Employee em = new Employee();
+		em.Name = "tyu";
+		System.out.println(em);
+		System.out.println(em.getSalary());	
+	}
+}

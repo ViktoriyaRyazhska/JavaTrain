@@ -1,0 +1,32 @@
+
+public class Employee {
+	private String Name;
+	private int Rate;
+	private int Hours;
+
+	public Employee() {
+	}
+
+
+//	public Employee(String Name, int Rate, int Hours) {
+//		this.Name = Name;
+//		this.Rate = Rate;
+//		this.Hours = Hours;
+//	}
+
+	public Employee(String Name) {
+		this.Name = Name;
+	}
+
+
+	@Override
+	public String toString() {
+		return "Employee [Name=" + Name + ", Rate=" + Rate + ", Hours=" + Hours + "]";
+	}
+
+	public int getSalary() {
+		return Hours * Rate;
+	}
+
+
+}
