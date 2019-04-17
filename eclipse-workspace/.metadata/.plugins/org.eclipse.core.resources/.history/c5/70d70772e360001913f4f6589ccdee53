@@ -1,5 +1,5 @@
 //Create an array of ten integers. Display +
-//the biggest of these numbers;+
+//the biggest of these numbers;
 //the sum of positive numbers in the array;
 //the amount of negative numbers in the array.
 //       What values there are more: negative or positive?
@@ -25,33 +25,9 @@ package practical5;
 	        for (int i = 0; i < anArray.length; i++) {
 	            anArray[i] = i;
 	            System.out.print(anArray[i] + " ");
-	        }  
+	        }
+	        
+	       
 
-
-	            //the biggest of these numbers;
-	        { int max = anArray[0];
-	            int imax = 0;
-	            int i = 0;
-	            while (i < anArray.length) {
-	            	if (anArray[i] > max) {
-	            		max = anArray[i];
-	            		imax = i;
-	            	}
-	            	i++;
-	            }
-	            System.out.print("Maximum = " + max);
-	            System.out.println(" is in " + (imax + 1) + " place");}
-	            
-	            
-	            
-	      	  //the sum of positive numbers in the array;
-	        { int sum = 0;
-	            for (int i = 0; i < anArray.length; i++) { sum += anArray[i];}
-	            System.out.println("Sum = " + sum);}
-
-	            
-	            
-	            
-	        }   
 	    }
-	
+	}
