@@ -4,7 +4,7 @@ public class Person {
 	private String name;
 	private int birthYear;
 	
-//	public Person () {}     //what does this code?
+	public Person () {}   
 	
 	public Person (String Name, int BirthYear) {
 		this.name = Name;

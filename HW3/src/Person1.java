@@ -16,9 +16,9 @@ public class Person1 {
 		System.out.println("What is the year of your birth?");
 
 		String birthYea = br.readLine();
-		int yof = Integer.parseUnsignedInt(birthYea);
+		int yob = Integer.parseUnsignedInt(birthYea);
 		
-		Person human = new Person(Name, yof);
+		Person human = new Person(Name, yob);
 		
 		System.out.println(human.getName() + " your age is: " + human.age());
 		
