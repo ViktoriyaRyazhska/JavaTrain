@@ -26,7 +26,6 @@ public class numberOfMonth {
 		int month [] = {31, 28, 31, 30, 31, 30, 31, 31, 30,
 				31, 30, 31};
 
-		
 		return month [n - 1];
 	}
 	
